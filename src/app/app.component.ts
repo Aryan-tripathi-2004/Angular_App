@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularApp';
+  ngOnInit() {
+    console.log('App Component');
+    this.title = 'Hello From Bridgelabz';
+  }
 }
