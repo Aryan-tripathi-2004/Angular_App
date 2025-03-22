@@ -1,12 +1,19 @@
 img{
+    display: block;
     aspect-ratio: 1/1;
-    width: 100px;
+    width: 300px;
+    margin: 0 auto;
 }
 h1{
     text-align: center;
+    font-size: 5rem;
 }
 .form{
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+.error-msg{
+    color: red;
+    text-align: center;
 }
